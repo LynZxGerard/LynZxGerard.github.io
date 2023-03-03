@@ -1,0 +1,480 @@
+/*================== INICIO =======================*/
+
+h1 {
+    font-family:'Tahoma', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900px;
+    font-size: 50px;
+    color:rgb(233, 135, 24);
+    text-align: center;
+}
+/*
+
+h3 {
+    color:darkslategrey;
+    text-align: center;
+    font-size: 90px;
+}
+*/
+.subtitulos-grandes {
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: 35px;
+    color:rgb(255, 153, 0);
+    text-align: center;
+}
+
+.subtitulos{
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 20px;
+        color:rgb(108, 63, 12)
+}
+
+body {
+    font-family: "Roboto";
+}
+
+.bgr{
+    background-color:rgb(239, 179, 95);
+    margin: 0 25px 0 25px;
+    font-size: 20px;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+.navegador{
+    background-color:rgb(255, 165, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navegador a {
+    font-family: fantasy;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgb(97, 95, 93);
+    font-weight: bold;
+    padding: 10px 50px;
+}
+
+.navegador a:hover {
+    background-color:rgb(255, 140, 0);;
+}
+
+.boton a{
+    background-color: rgb(178, 216, 124);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 35px;
+    border-radius: 15%;
+    color:rgb(97, 93, 93);
+}
+
+.fondo{
+    background-image: url(/img/Inicio.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    margin: 0 25px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: content-box;
+}
+
+
+
+.fondo::before {
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: inherit;
+    background-size: cover;
+    transform: translateY(01%) scale(1.2);
+}
+
+.transparencia {
+    background-color: rgba(238, 238, 238, 0.233);
+    width: 100%;
+    height: 100%;
+}
+
+.transparencia h2 {
+    margin-top: 0;
+    padding: 25px;
+}
+
+.transparencia p {
+    color: white;
+}
+
+.direccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alinear_boton {
+    text-align: center;
+    padding: 40px;
+}
+
+.sombreado {
+    -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 75);
+    -moz-box-shadow: 10px 10px 5px rgba(0, 0, 0, 75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 75);
+    background-color: rgb(131, 127, 122);
+    padding: 2px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.contenedor_principal {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /*column-gap: 20px;*/
+}
+
+.servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.website_bgr {
+    background-image: radial-gradient(circle, #e09017, #313136);
+}
+
+.servicio p {
+    margin: 20px;
+    text-align: center;
+}
+
+.servicio .iconos {
+    background-color: rgba(255, 165, 0);
+    padding: 40px;
+    border-radius: 50%;
+}
+
+.formulario {
+    background-color: rgb(220, 148, 16);
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.formulario legend {
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: bold;
+}
+
+.formulario fieldset {
+    border: none;
+}
+
+.alinear_boton_2 {
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    border: none;
+}
+
+.alinear_boton_2 input{
+    background-color: rgb(178, 216, 124);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 15%;
+    color: rgb(41, 41, 41);
+}
+
+.contenedor_campos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto 40px;
+}
+
+.campo {
+    margin-bottom: 50px;
+}
+
+.campo:nth-child(1),
+.campo:nth-child(1) {
+    grid-column: 1 / 1;
+}
+
+.campo label {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.campo textarea {
+    height: 1000px;
+}
+
+.input_text {
+    width: fit-content;
+    border: none;
+    height: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+/*================== SOBRE MI =======================*/
+
+.fondo_sobremi {
+    background-image: url(/img/sobremi.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    margin: 0 25px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: content-box;
+}
+
+.bloque_principal {
+    width: 1600px;
+    height: auto;
+    background-color: #6d6562;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 0.75rem rgb(220, 120, 20));
+    
+}
+
+.bloque_principal img {
+    width: 350px;
+    height: 350px;
+    background-color: #6d656200;
+    margin-left: 620px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 0.75rem rgb(220, 120, 20));
+    text-align: center;
+
+}
+
+.lower-section,
+.upper-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(#2980b9, 0.5);
+}
+
+.upper-section {
+    height: 200px;
+    width: 100%;
+    background: #5a5553;
+}
+
+.sub p{
+    text-align: center;
+    color: rgb(220, 120, 20);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.lower-section {
+    height: 400px;
+    width: 100%;
+    background: #4b3e3a;
+}
+
+.sub2 p {
+        text-align: center;
+        color: rgb(250, 248, 227);
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 50px;
+        padding-right: 50px;
+}
+
+.section-divider {
+    position: relative;
+}
+
+.section-divider:before {
+    font-family: 'codepen';
+    content: "---"; /* lo que va dentro del circulo */
+    width: 6.5rem;
+    height: 6.5rem;
+    background: #4b3e3a;
+    border-radius: 100%;
+    position: absolute;
+    top: -3.25rem;
+    left: calc(50% - 3.25rem);
+    color: rgba(#2980b9, 0.5);
+    line-height: 6rem;
+    text-indent: 1.75rem;
+    font-size: 3rem;
+}
+
+    
+
+
+
+/*================== CLIENTES =======================*/
+
+.fondo_clientes {
+    background-image: url(/img/clientes.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    margin: 0 25px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: content-box;
+}
+
+.transparencia_naranja {
+    background-color: rgba(151, 85, 85, 0.524);
+    width: 100%;
+    height: 100%;
+}
+
+.tabla {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.logos { 
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.bloque_principal_logos{
+        width: 300px;
+        height: 600px;
+        background-color: #6d6562;
+        margin: 0 auto;
+        margin-top: 50px;
+        border-radius: 5px;
+        filter: drop-shadow(0 0 0.75rem rgb(220, 120, 20));
+}
+
+.bloque_principal_logos img{
+    width: 80%;
+    text-align: right;
+    padding: 20px;
+}
+
+
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(164, 64, 15);
+}
+
+table td{
+    text-align: center;
+}
+
+thead th:nth-child(1) {
+    width: 30%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+thead th:nth-child(4) {
+    width: 35%;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*================== CONTACTO =======================*/
+
+.fondo_contacto {
+    background-image: url(/img/contacto.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    margin: 0 25px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: content-box;
+}
+
+.centrar_video{
+    display: flex;
+    justify-content: center;
+}
+
+.container_contacto {
+    display: flex;
+}
+
+.col_contacto {
+    flex: 1;
+    padding: 30px;
+}
+
+.col_contacto p{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(244, 246, 214);
+}
+
+.img_link {
+    width: 350px;
+    height: 350px;
+    display:block;
+}
+
+.col_contacto a {
+    width: 10px;
+    height: 10px;
+}
+
+.bloque_principal_contacto {
+    width: 1050px;
+    height: auto;
+    background-color: #6d6562;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 0.75rem rgb(220, 120, 20));
+
+}
